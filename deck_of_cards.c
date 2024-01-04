@@ -7,7 +7,6 @@
 //const char *suits[] = {"♠", "♣", "♦", "♥"};
 const char *suits[] = {"S", "C", "D", "H"};
 const char *ranks[] = {"2", "3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K", "A"};
-const int deckSize = 52;
 
 // Create a 52 card deck
 void initializeDeck(Card deck[])

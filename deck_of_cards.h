@@ -1,5 +1,6 @@
 #ifndef DECK_OF_CARDS_H
 #define DECK_OF_CARDS_H
+#define DECK_SIZE 52
 
 typedef struct{
 	const char *rank;
