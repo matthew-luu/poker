@@ -63,8 +63,7 @@ int compareRanks(const char* rank1, const char* rank2)
 char* getHand(Card card1, Card card2)
 {
     char* hand = (char*)malloc(4*sizeof(char));
-    //strncpy(hand, card1.rank, 1);
-    //strncpy(hand + 1, card2.rank, 1);
+
 	if (compareRanks(card1.rank, card2.rank) > 0) {
         strncpy(hand, card1.rank, 1);
         strncpy(hand + 1, card2.rank, 1);

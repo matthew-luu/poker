@@ -6,6 +6,7 @@
 
 typedef struct{
     char *hand;
+    int position;
     int score;
 } Player;
 
@@ -14,7 +15,7 @@ void dealToPlayer(Card deck[], Player *player)
     player->hand = getHand(deck[0], deck[1]);
 }
 
-void pushOrFold(Player *player, int rangeSize)
+void pushOrFold(Player *player, int position)
 {
     int choice;
     printf("\nPush (1) or Fold (0): ");
@@ -22,9 +23,12 @@ void pushOrFold(Player *player, int rangeSize)
 
     if(choice)
     {
-        for (int hand = 0; hand < rangeSize; hand++)
+        //Calculate the number of hands in the position's range
+        int hand;
+        int rangeSize = rangeElements[player->position];
+        for (hand = 0; hand < rangeSize; hand++)
         {
-            if(strcmp(rangeUTG[hand], player->hand)==0)
+            if(strcmp(positions[player->position][hand], player->hand)==0)
             {
                 player->score++;
                 printf("In range!\n");
@@ -37,6 +41,12 @@ void pushOrFold(Player *player, int rangeSize)
     return;
 }
 
+void changePosition(Player *player)
+{
+    int numberOfPositions = 7;
+    player->position = (player->position + 1) % numberOfPositions;
+}
+
 int main()
 {
     //initialize deck
@@ -46,20 +56,23 @@ int main()
     //initialize player
     Player *player = malloc(sizeof(Player));
     player->score = 0;
+    player->position = 0;
     
+    int totalHands = 0;
+
     while(1)
     {
         shuffleDeck(deck, DECK_SIZE);
         dealToPlayer(deck, player);
-        printf("\nCards: %s%s %s%s\n", deck[0].rank, deck[0].suit, deck[1].rank, deck[1].suit);
-        printf("Player hand: %s\n", player->hand);
-        pushOrFold(player, 11);
-        printf("Score: %d\n", player->score);
 
-        int shuffle;
-        printf("\nShuffle? Yes(1) or No(0): ");
-        scanf("%d", &shuffle);
-        if(shuffle == 0)
+        printf("\nPosition: %s\n", positionName[player->position]);
+        printf("Player hand: %s\n", player->hand);
+        pushOrFold(player, player->position);// Needs to include position
+        changePosition(player);
+        totalHands++;
+        printf("\nTotal hands: %d   Score: %d", totalHands, player->score);
+
+        if(totalHands >= 100)
         {
             break;
         }
