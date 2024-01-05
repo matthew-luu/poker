@@ -7,8 +7,10 @@ typedef struct{
 	const char *suit;
 } Card;
 
-void initialize(Card deck[]);
+void initializeDeck(Card deck[]);
 void shuffleDeck(Card deck[], int size);
 void printDeck(Card deck[], int size);
+int compareRanks(const char* rank1, const char* rank2);
+char* getHand(Card card1, Card card2); 
 
 #endif // DECK_OF_CARDS_H
