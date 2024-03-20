@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SSD OS\\Desktop\\Side\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{19FA1041-6103-4141-94E9-4D9B28A6238A}|Side.Tests\\Side.Tests.csproj|C:\\Users\\SSD OS\\Desktop\\Side\\side.tests\\storedproceduretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19FA1041-6103-4141-94E9-4D9B28A6238A}|Side.Tests\\Side.Tests.csproj|solutionrelative:side.tests\\storedproceduretest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42CFF8FA-04A2-4F54-B8BD-7DC204995CAC}|Side\\Side.csproj|c:\\users\\ssd os\\desktop\\side\\side\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42CFF8FA-04A2-4F54-B8BD-7DC204995CAC}|Side\\Side.csproj|solutionrelative:side\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19FA1041-6103-4141-94E9-4D9B28A6238A}|Side.Tests\\Side.Tests.csproj|C:\\Users\\SSD OS\\Desktop\\Side\\side.tests\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19FA1041-6103-4141-94E9-4D9B28A6238A}|Side.Tests\\Side.Tests.csproj|solutionrelative:side.tests\\playertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerTest.cs",
+              "DocumentMoniker": "C:\\Users\\SSD OS\\Desktop\\Side\\Side.Tests\\PlayerTest.cs",
+              "RelativeDocumentMoniker": "Side.Tests\\PlayerTest.cs",
+              "ToolTip": "C:\\Users\\SSD OS\\Desktop\\Side\\Side.Tests\\PlayerTest.cs",
+              "RelativeToolTip": "Side.Tests\\PlayerTest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T05:22:56.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StoredProcedureTest.cs",
+              "DocumentMoniker": "C:\\Users\\SSD OS\\Desktop\\Side\\Side.Tests\\StoredProcedureTest.cs",
+              "RelativeDocumentMoniker": "Side.Tests\\StoredProcedureTest.cs",
+              "ToolTip": "C:\\Users\\SSD OS\\Desktop\\Side\\Side.Tests\\StoredProcedureTest.cs",
+              "RelativeToolTip": "Side.Tests\\StoredProcedureTest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T04:43:19.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\SSD OS\\Desktop\\Side\\Side\\Player.cs",
+              "RelativeDocumentMoniker": "Side\\Player.cs",
+              "ToolTip": "C:\\Users\\SSD OS\\Desktop\\Side\\Side\\Player.cs",
+              "RelativeToolTip": "Side\\Player.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T03:24:22.503Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

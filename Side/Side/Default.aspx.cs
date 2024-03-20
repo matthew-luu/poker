@@ -13,5 +13,20 @@ namespace Side
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Write("Button 1 clicked!");
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            Response.Write("Button 2 clicked!");
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Response.Write("Button 3 clicked!");
+        }
     }
 }
